@@ -6,8 +6,8 @@ package:
   version: {{ version }}
 
 source:
-    url: https://github.com/UV-CDAT/libcdms/archive/v2.10.tar.gz
-    sha256: 1a82c29612474247110544c472d5fd7e9bb991400f849d92dce482dda9fb439c
+    url: https://github.com/UV-CDAT/libcdms/archive/2.10.tar.gz
+    sha256: 4a5cc8e9ceb0d447353cc13e0a9bd8bd6f9d7cfcb02e2eec43b5ee42bfeab8d2
 
 build:
   number: 0
@@ -23,6 +23,7 @@ requirements:
     - libtiff 4.0.*
     - jpeg 9*
     - libdrs
+    - toolchain  # [osx]
   run:
     - hdf5 1.8.17|1.8.17.*
     - libnetcdf 4.4.*
