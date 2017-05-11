@@ -7,10 +7,10 @@ package:
 
 source:
     url: https://github.com/UV-CDAT/libcdms/archive/2.10.tar.gz
-    sha256: 4a5cc8e9ceb0d447353cc13e0a9bd8bd6f9d7cfcb02e2eec43b5ee42bfeab8d2
+    sha256: 78a019adb4fe42318832010e9a2b071761a56101291185c0c16e7368ccca01fc 
 
 build:
-  number: 0
+  number: 2
   skip: True  # [win] 
 
 requirements:
