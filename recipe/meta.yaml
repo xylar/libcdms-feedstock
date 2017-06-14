@@ -10,12 +10,12 @@ source:
     sha256: 78a019adb4fe42318832010e9a2b071761a56101291185c0c16e7368ccca01fc 
 
 build:
-  number: 2
+  number: 3
   skip: True  # [win] 
 
 requirements:
   build:
-    - hdf5 1.8.17|1.8.17.*
+    - hdf5 1.8.18|1.8.18.*
     - libnetcdf 4.4.*
     - jasper
     - g2clib
@@ -25,7 +25,7 @@ requirements:
     - libdrs
     - toolchain  # [osx]
   run:
-    - hdf5 1.8.17|1.8.17.*
+    - hdf5 1.8.18|1.8.18.*
     - libnetcdf 4.4.*
     - jasper
     - g2clib
