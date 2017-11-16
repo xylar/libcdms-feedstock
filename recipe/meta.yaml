@@ -1,13 +1,13 @@
 {% set name = "libcdms" %}
-{% set version = "2.12" %}
+{% set version = "3.0.alpha" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-    url: https://github.com/UV-CDAT/libcdms/archive/2.12.tar.gz
-    sha256: 0eb0fe26fcef622ee543234882820ee46c1d3c106ff4ac88304fc3b0fdcc8b89
+    url: https://github.com/UV-CDAT/libcdms/archive/v3.0.alpha.tar.gz
+    sha256: 46d446b6aa5317fe5744cdac135169f3b93aeac1a2ff0911188b5e14fd2a7da0
 
 build:
   number: 0
