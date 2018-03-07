@@ -1,13 +1,14 @@
 {% set name = "libcdms" %}
-{% set version = "3.0.alpha" %}
+{% set version = "3.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-    url: https://github.com/UV-CDAT/libcdms/archive/v3.0.alpha.tar.gz
-    sha256: 46d446b6aa5317fe5744cdac135169f3b93aeac1a2ff0911188b5e14fd2a7da0
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://github.com/UV-CDAT/libcdms/archive/master.tar.gz
+  sha256: 46613f202babe43d8beb07e8ff65c114afeeb36093876e36c7fcaaf306984990
 
 build:
   number: 0
@@ -15,7 +16,7 @@ build:
 
 requirements:
   build:
-    - hdf5 1.8.18|1.8.18.*
+    - hdf5 1.10.*
     - libnetcdf 4.4.*
     - jasper
     - g2clib
@@ -23,9 +24,9 @@ requirements:
     - libtiff 4.0.*
     - jpeg 9*
     - libdrs
-    - toolchain  # [osx]
+    - gcc
   run:
-    - hdf5 1.8.18|1.8.18.*
+    - hdf5 1.10.*
     - libnetcdf 4.4.*
     - jasper
     - g2clib
@@ -33,6 +34,7 @@ requirements:
     - libtiff 4.0.*
     - jpeg 9*
     - libdrs
+    - libgfortran
 
 test:
   commands:
