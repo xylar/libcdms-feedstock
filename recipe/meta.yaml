@@ -19,7 +19,7 @@ requirements:
     - {{ compiler('c') }}
     - {{ compiler('fortran') }}
   host:
-    - libnetcdf
+    - libnetcdf >4.5
     - jasper
     - g2clib
     - libpng >=1.6.28,<1.7
@@ -27,7 +27,7 @@ requirements:
     - jpeg 9*
     - libdrs
   run:
-    - libnetcdf
+    - libnetcdf >4.5
     - jasper
     - g2clib
     - libpng >=1.6.28,<1.7
