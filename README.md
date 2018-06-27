@@ -17,8 +17,8 @@ gridded data used in climate analysis and simulation.
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/libcdms-feedstock-dnadeau4-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/libcdms-feedstock-dnadeau4-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/libcdms-feedstock-dnadeau4-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/libcdms-feedstock-dnadeau4-feedstock)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/libcdms-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/libcdms-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/libcdms-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/libcdms-feedstock)
 ![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
 
 Current release info
