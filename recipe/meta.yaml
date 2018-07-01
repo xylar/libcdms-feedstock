@@ -11,11 +11,15 @@ source:
   sha256: 9e62f77562f667db559466092cb0d908abf67a3216f7faaf152348a72f46786e
 
 build:
-  number: 1
+  number: 2
   skip: True  # [win]
 
 requirements:
   build:
+    - {{ compiler('fortran') }}
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+  host:
     - {{ compiler('fortran') }}
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
