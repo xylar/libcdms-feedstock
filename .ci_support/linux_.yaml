@@ -1,4 +1,4 @@
 c_compiler:
-- toolchain_c
+- gcc
 fortran_compiler:
-- toolchain_fort
+- gfortran
