@@ -1,9 +1,7 @@
 c_compiler:
-- toolchain_c
-cxx_compiler:
-- toolchain_cxx
+- gcc
 fortran_compiler:
-- toolchain_fort
+- gfortran
 hdf5:
 - 1.10.2
 jpeg:
@@ -25,3 +23,4 @@ pin_run_as_build:
     max_pin: x.x
   libtiff:
     max_pin: x
+
