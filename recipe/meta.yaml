@@ -20,13 +20,8 @@ requirements:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
   host:
-    - {{ compiler('fortran') }}
-    - {{ compiler('c') }}
-    - {{ compiler('cxx') }}
-  host:
     - hdf5
     - libnetcdf
-
     - jasper
     - g2clib
     - libpng
