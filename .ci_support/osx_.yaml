@@ -1,11 +1,11 @@
 MACOSX_DEPLOYMENT_TARGET:
 - '10.9'
 c_compiler:
-- clang
-fortran_compiler:
-- gfortran
+- toolchain_c
 cxx_compiler:
 - toolchain_cxx
+fortran_compiler:
+- toolchain_fort
 hdf5:
 - 1.10.2
 jpeg:
@@ -31,4 +31,3 @@ pin_run_as_build:
     max_pin: x.x
   libtiff:
     max_pin: x
-
