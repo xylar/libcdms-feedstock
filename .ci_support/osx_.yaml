@@ -1,11 +1,11 @@
 MACOSX_DEPLOYMENT_TARGET:
 - '10.9'
 c_compiler:
-- toolchain_c
+- clang
 cxx_compiler:
 - toolchain_cxx
 fortran_compiler:
-- toolchain_fort
+- gfortran
 hdf5:
 - 1.10.2
 jpeg:
