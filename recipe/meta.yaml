@@ -18,7 +18,6 @@ requirements:
   build:
     - {{ compiler('fortran') }}
     - {{ compiler('c') }}
-    - {{ compiler('cxx') }}
   host:
     - hdf5
     - libnetcdf
