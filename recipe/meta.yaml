@@ -1,5 +1,5 @@
 {% set name = "libcdms" %}
-{% set version = "3.0.1" %}
+{% set version = "3.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://github.com/UV-CDAT/libcdms/archive/v3.0.1.tar.gz
-  sha256: 8b53cd7821feefa0b357ca5127d9fc6164380e51f2205e7d2c5018f71a617f91
+  url: https://github.com/CDAT/libcdms/archive/v3.1.0.tar.gz
+  sha256: 887107ef1a48e057065ee1c01e0ae1ea1b430e8ce9e2d722686b1e82e9dbb473
 
 build:
-  number: 4
+  number: 0
   skip: True  # [win]
 
 requirements:
@@ -42,15 +42,15 @@ test:
     - test -f $PREFIX/lib/libcdms.a
 
 about:
-  home: https://github.com/UV-CDAT/libcdms
-  license: '2-Clause BSD'
-  license_file: 'LICENSE'
+  home: https://github.com/CDAT/libcdms
+  license: '3-Clause BSD'
+  license_file: 'bsd-3-clause.txt'
   summary: 'Climate Data Management System library'
   description: |
       The Climate Data Management System is an object-oriented data
       management system, specialized for organizing multidimensional,
       gridded data used in climate analysis and simulation.
-  dev_url: https://github.com/UV-CDAT/libcdms
+  dev_url: https://github.com/CDAT/libcdms
 
 extra:
   recipe-maintainers:
