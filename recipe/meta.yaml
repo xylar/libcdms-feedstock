@@ -42,15 +42,15 @@ test:
     - test -f $PREFIX/lib/libcdms.a
 
 about:
-  home: https://github.com/UV-CDAT/libcdms
-  license: '2-Clause BSD'
-  license_file: 'LICENSE'
+  home: https://github.com/CDAT/libcdms
+  license: '3-Clause BSD'
+  license_file: 'bsd-3-clause.txt'
   summary: 'Climate Data Management System library'
   description: |
       The Climate Data Management System is an object-oriented data
       management system, specialized for organizing multidimensional,
       gridded data used in climate analysis and simulation.
-  dev_url: https://github.com/UV-CDAT/libcdms
+  dev_url: https://github.com/CDAT/libcdms
 
 extra:
   recipe-maintainers:
