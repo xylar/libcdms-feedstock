@@ -1,9 +1,9 @@
 About libcdms
 =============
 
-Home: https://github.com/UV-CDAT/libcdms
+Home: https://github.com/CDAT/libcdms
 
-Package license: 2-Clause BSD
+Package license: 3-Clause BSD
 
 Feedstock license: BSD 3-Clause
 
