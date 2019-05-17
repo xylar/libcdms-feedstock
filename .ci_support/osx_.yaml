@@ -2,6 +2,8 @@ MACOSX_DEPLOYMENT_TARGET:
 - '10.9'
 c_compiler:
 - clang
+c_compiler_version:
+- '4'
 channel_sources:
 - conda-forge,defaults
 channel_targets:
@@ -17,7 +19,7 @@ jasper:
 jpeg:
 - '9'
 libnetcdf:
-- '4.6'
+- 4.6.2
 libpng:
 - 1.6.35
 libtiff:
@@ -32,7 +34,7 @@ pin_run_as_build:
   jpeg:
     max_pin: x
   libnetcdf:
-    max_pin: x.x
+    max_pin: x.x.x
   libpng:
     max_pin: x.x
   libtiff:
