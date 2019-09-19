@@ -2,9 +2,7 @@ export CFLAGS="-Wall -g -m64 -pipe -O2  -fPIC ${CFLAGS}"
 export CXXLAGS="${CFLAGS} ${CXXLAGS}"
 export CPPFLAGS="-I${PREFIX}/include ${CPPPFLAGS}"
 export LDFLAGS="-L${PREFIX}/lib ${LDFLAGS}"
-if [ `uname` == Linux ]; then
-   export LDSHARED="$CC -shared -pthread" ;
-fi
+export LDSHARED="$CC -shared -pthread" ;
 
 ./configure \
     --enable-dap= \
@@ -18,17 +16,18 @@ fi
     --cache-file=/dev/null \
     --with-nclib=${PREFIX}/lib \
     --with-ncinc=${PREFIX}/include \
-    --with-daplib=/lib \
-    --with-dapinc=/include \
-    --with-hdfinc=./include \
-    --with-hdflib=./lib \
+    --with-daplib=${PREFIX}/lib \
+    --with-dapinc=${PREFIX}/include \
+    --with-hdfinc=${PREFIX}/include \
+    --with-hdflib=${PREFIX}/lib \
     --with-hdf5lib=${PREFIX}/lib \
-    --with-pnglib=/usr/X11/lib \
+    --with-pnglib=${PREFIX}/lib \
     --with-grib2lib=${PREFIX}/lib \
     --with-jasperlib=${PREFIX}/lib \
     --with-grib2inc=${PREFIX}/include \
     --enable-grib2 \
     --prefix=${PREFIX}
+
 make 
 make libinstall
 make bininstall
