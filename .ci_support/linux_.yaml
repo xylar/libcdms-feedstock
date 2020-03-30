@@ -19,7 +19,7 @@ jasper:
 jpeg:
 - '9'
 libnetcdf:
-- 4.7.3
+- 4.7.4
 libpng:
 - '1.6'
 libtiff:
@@ -29,8 +29,6 @@ pin_run_as_build:
     max_pin: x
   jpeg:
     max_pin: x
-  libnetcdf:
-    max_pin: x.x.x
   libpng:
     max_pin: x.x
   libtiff:
