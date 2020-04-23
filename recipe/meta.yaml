@@ -68,7 +68,7 @@ test:
 
 about:
   home: https://github.com/CDAT/libcdms
-  license: '3-Clause BSD'
+  license: BSD-3-Clause
   license_file: 'bsd-3-clause.txt'
   summary: 'Climate Data Management System library'
   description: |
