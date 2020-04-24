@@ -3,7 +3,7 @@ About libcdms
 
 Home: https://github.com/CDAT/libcdms
 
-Package license: 3-Clause BSD
+Package license: BSD-3-Clause
 
 Feedstock license: BSD 3-Clause
 
