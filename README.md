@@ -3,7 +3,7 @@ About libcdms
 
 Home: https://github.com/CDAT/libcdms
 
-Package license: 3-Clause BSD
+Package license: BSD-3-Clause
 
 Feedstock license: BSD 3-Clause
 
@@ -32,17 +32,45 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux</td>
+              <td>linux_mpimpich</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=522&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libcdms-feedstock?branchName=master&jobName=linux&configuration=linux_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libcdms-feedstock?branchName=master&jobName=linux&configuration=linux_mpimpich" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx</td>
+              <td>linux_mpinompi</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=522&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libcdms-feedstock?branchName=master&jobName=osx&configuration=osx_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libcdms-feedstock?branchName=master&jobName=linux&configuration=linux_mpinompi" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_mpiopenmpi</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=522&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libcdms-feedstock?branchName=master&jobName=linux&configuration=linux_mpiopenmpi" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_mpimpich</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=522&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libcdms-feedstock?branchName=master&jobName=osx&configuration=osx_mpimpich" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_mpinompi</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=522&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libcdms-feedstock?branchName=master&jobName=osx&configuration=osx_mpinompi" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_mpiopenmpi</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=522&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libcdms-feedstock?branchName=master&jobName=osx&configuration=osx_mpiopenmpi" alt="variant">
                 </a>
               </td>
             </tr>
@@ -161,4 +189,5 @@ Feedstock Maintainers
 * [@doutriaux1](https://github.com/doutriaux1/)
 * [@downiec](https://github.com/downiec/)
 * [@muryanto1](https://github.com/muryanto1/)
+* [@xylar](https://github.com/xylar/)
 
